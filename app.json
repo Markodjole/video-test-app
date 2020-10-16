@@ -2,11 +2,22 @@
   "name": "test-project",
   "displayName": "test-project",
   "expo": {
-    "name": "test-project",
+    "sdkVersion": "36.0.0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "name": "Test Video App",
+    "description": "Test Video App",
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "package": "com.comp.comp"
+    },
     "slug": "test-project",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }
